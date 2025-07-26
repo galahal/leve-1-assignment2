@@ -113,3 +113,25 @@ body {
     cursor: pointer;
     border-radius: 5px;
 }
+.about {
+    background: #f2fbf9;
+    padding: 80px 0;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+.about-text h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.about-text ul {
+    list-style: disc;
+    padding-left: 20px;
+    color: #555;
+}
