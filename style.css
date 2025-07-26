@@ -235,3 +235,159 @@ body {
     display: flex;
     gap: 20px;
 }
+
+@media (max-width: 768px) {
+  /* Navbar */
+  #h {
+    display: none;
+  }
+
+  .navbar .nav-container {
+    justify-content: space-between;
+  }
+
+  .logo img {
+    width: 63px;
+    height: 38px;
+  }
+
+  /* Banner Section */
+  .banner-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .banner-image {
+    order: -1;
+    width: 100%;
+    height: auto;
+  }
+
+  .banner-content {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .banner-content h1 {
+    font-size: 34px;
+  }
+
+  .banner-content p {
+    font-size: 14px;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  /* Plants Section */
+  .plants-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .section-header h2 {
+    font-size: 34px;
+  }
+
+  .section-header p {
+    font-size: 14px;
+  }
+
+  .plant-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .add-to-cart {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  /* Plant Lover Section */
+  .plant-lover-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .plant-lover-image {
+    order: -1;
+  }
+
+  .trusted-badge {
+    display: none;
+  }
+
+  .plant-lover-content h2 {
+    font-size: 28px;
+  }
+
+  .plant-lover-content li {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  /* Deals Section */
+  .deals-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .deal-card.large {
+    order: 2;
+    width: 100%;
+    height: auto;
+  }
+
+  .deal-card {
+    width: 100%;
+    height: auto;
+  }
+
+  .deal-overlay h3 {
+    font-size: 20px;
+  }
+
+  .shop-now2 {
+    font-size: 16px;
+  }
+
+  /* Join Section */
+  .join-section {
+    padding: 40px 0;
+    height: auto;
+  }
+
+  .join-content h2 {
+    font-size: 28px;
+    margin-top: 20px;
+  }
+
+  .newsletter-form {
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 20px;
+  }
+
+  .newsletter-form input,
+  .newsletter-form button {
+    width: 100%;
+    height: 45px;
+  }
+
+  /* Footer */
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .footer-links {
+    grid-template-columns: 1fr;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+}
+
